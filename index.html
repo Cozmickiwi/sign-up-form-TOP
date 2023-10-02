@@ -8,6 +8,43 @@
     <script src="javascript.js" defer></script>
 </head>
 <body>
-    <p>hello world</p>
+    <div class="mainContainer">
+        <div class="leftSide">
+            
+
+        </div>
+        <div class="rightSide">
+            <div class="formContainer">
+                <form>
+                    <div class="inputContainer" id="firstNameContainer">
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" name="first-name" id="firstName" placeholder="e.g John" required>
+                    </div>
+                    <div class="inputContainer" id="lastNameContainer">
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" name="last-name" id="lastName" required>
+                    </div>
+                    <div class="inputContainer" id="emailContainer">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="inputContainer" id="phoneNumContainer">
+                        <label for="phoneNum">PHONE NUMBER</label>
+                        <input type="tel" name="phone-number" id="phoneNum" required>
+                    </div>
+                    <div class="inputContainer" id="pwdContainer">
+                        <label for="pwd">PASSWORD</label>
+                        <input type="password" name="password" id="pwd" required>
+                    </div>
+                    <div class="inputContainer" id="confirmPwdContainer">
+                        <label for="confirmPwd">CONFIRM PASSWORD</label>
+                        <input type="password" name="password-confirm" id="confirmPwd" required>
+                    </div>
+                    <button type="submit">submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
 </body>
 </html>
